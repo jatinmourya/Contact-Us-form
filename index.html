@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Contact Us Form</h1>
+      <h3>
+        Please fill in your information and we'll be sending your order in no
+        time.
+      </h3>
+      <div class="flex">
+        <p>Your Name</p>
+        <input id="fname" type="text" placeholder="First Name" />
+        <input id="lname" type="text" placeholder="Last Name" />
+      </div>
+      <div class="flex">
+        <p>Your Email</p>
+        <input id="email" type="email" placeholder="Email" />
+      </div>
+      <div class="flex">
+        <p>Phone*</p>
+        <input id="phone" type="number" placeholder="Phone" min="0" />
+      </div>
+      <div class="flex">
+        <p>Subject*</p>
+        <input id="sub" type="subject" placeholder="Subject" />
+      </div>
+      <div class="flex">
+        <p>Message*</p>
+        <!-- <input id="msg" type="textarea" placeholder="Message" /> -->
+        <textarea name="" id="" cols="30" rows="7"></textarea>
+      </div>
+      <hr width="650px" />
+      <div class="flex">
+        <input id="submit" type="button" value="Submit Form" />
+      </div>
+    </form>
+  </body>
+</html>
